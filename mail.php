@@ -10,9 +10,9 @@ $mailheader = "From:".$name."[".$email."]\r\n";
 
 $recipient = "sydneyjayda@gmail.com";
 
-mail($recipient, $subject, $message, $mailheader) or die("Error!");
+// mail($recipient, $subject, $message, $mailheader) or die("Error!"); ?>
 
-echo'
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,6 @@ echo'
     </div>
 </body>
 </html>
-';
 
 
-?>
+
